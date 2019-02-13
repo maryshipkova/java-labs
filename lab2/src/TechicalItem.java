@@ -2,8 +2,7 @@ public class TechicalItem extends GenericItem {
     short warrantyTime; // гарантийный срок (суток)
 
     TechicalItem(String name, float price, short warrantyTime) {
-        super(name, price);
-        this.category = Category.PRINT;
+        super(name, price, Category.PRINT);
         this.warrantyTime = warrantyTime;
     }
 
