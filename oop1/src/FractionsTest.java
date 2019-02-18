@@ -54,7 +54,14 @@ public class FractionsTest {
     void testMin() throws Exception {
         assertEquals(fractions.min(), fraction1);
     }
-
+    @Test
+    void testGreaterThan() throws Exception {
+        assertEquals(fractions.numGreaterThan(fraction2), 2);
+    }
+    @Test
+    void testLesserThan() throws Exception {
+        assertEquals(fractions.numLesserThan(fraction4), 3);
+    }
     //Polynom
 
     @Test

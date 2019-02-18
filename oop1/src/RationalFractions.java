@@ -17,6 +17,18 @@ public class RationalFractions implements Iterable<RationalFraction> {
         this.fractions = new ArrayList<RationalFraction>();
     }
 
+    public void add(RationalFractions fractions) {
+        int minLength = Math.min(this.length, fractions.length);
+        for (int i = 0; i < minLength; i++) {
+            this.fractions.get(i).add(fractions.get(i));
+        }
+        int i = fractions.length - minLength;
+        while (fractions.length > minLength) {
+            this.push(fractions.get(fractions.length - i));
+            --i;
+        }
+    }
+
     public RationalFraction get(int index) {
         return this.fractions.get(index);
     }
@@ -28,25 +40,30 @@ public class RationalFractions implements Iterable<RationalFraction> {
         this.countMin();
     }
 
-    public RationalFraction max() {
-        return this.maxFraction;
+    public int numGreaterThan(RationalFraction fraction) {
+        int num = 0;
+        for (RationalFraction fr : fractions) {
+            if (fr.getIrrational() > fraction.getIrrational())
+                ++num;
+        }
+        return num;
     }
 
+    public int numLesserThan(RationalFraction fraction) {
+        int num = 0;
+        for (RationalFraction fr : fractions) {
+            if (fr.getIrrational() < fraction.getIrrational())
+                ++num;
+        }
+        return num;
+    }
 
     public RationalFraction min() {
         return this.minFraction;
     }
 
-    public void add(RationalFractions fractions) {
-        int minLength = Math.min(this.length, fractions.length);
-        for (int i = 0; i < minLength; i++) {
-            this.fractions.get(i).add(fractions.get(i));
-        }
-        int i = fractions.length - minLength;
-        while (fractions.length > minLength) {
-            this.push(fractions.get(fractions.length - i));
-            --i;
-        }
+    public RationalFraction max() {
+        return this.maxFraction;
     }
 
 
