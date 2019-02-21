@@ -46,10 +46,22 @@ public class Main {
         System.out.println("long: " + (end - begin));
 
 
-        // 5
-
+        // 5-1
         int[] arr = {12, 43, 12, -65, 778, 123, 32, 76};
         System.out.println(arrayMax(arr));
+
+
+        // 5-2
+
+        int[][] arr2d = new int[3][3];
+        for (int i = 0; i < arr2d.length; i++) {
+            for (int j = 0; j < arr2d[i].length; j++) {
+                arr2d[i][j] = (int) (Math.random() * 10);
+            }
+        }
+        print2dArray(arr2d);
+        translateArray(arr2d);
+        print2dArray(arr2d);
     }
 
     public static int arrayMax(int[] arr) {
@@ -59,5 +71,26 @@ public class Main {
 
         return max;
     }
+
+    public static void translateArray(int[][] arr) {
+        System.out.println("translate");
+        for (int i = 0; i < arr.length-1; i++) {
+            for (int j = i+1; j < arr[i].length; j++) {
+                int temp = arr[i][j];
+                arr[i][j] = arr[j][i];
+                arr[j][i] = temp;
+            }
+        }
+    }
+
+    public static void print2dArray(int[][] arr){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.print("\n");
+        }
+    }
+
 
 }

@@ -2,7 +2,7 @@ import java.util.Date;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         FoodItem foodAnalog = new FoodItem("doshirak");
         GenericItem[] genericItems = {
                 new FoodItem("cup noodle", 100f, foodAnalog, new Date(), (short) 120),
@@ -34,5 +34,7 @@ public class Main {
         String[] item_fld = line.split(";");
         FoodItem foodItem = new FoodItem(item_fld[0], Float.parseFloat(item_fld[1]), Short.parseShort(item_fld[2]));
         foodItem.printAll();
+        FoodItem foodItem2 =  (FoodItem)foodItem.clone();
+        System.out.println(foodItem.equals(foodItem2));
     }
 }

@@ -10,4 +10,12 @@ public class TechicalItem extends GenericItem {
         System.out.printf("ID: %d, Name: %s, price: %5.2f, Category: %s, WarrantyTime: %d\n",
                 ID, name, price, category, warrantyTime);
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof TechicalItem) {
+            TechicalItem obj1 = (TechicalItem) obj;
+            return super.equals(obj) && warrantyTime == obj1.warrantyTime;
+        }
+        return false;
+    }
 }

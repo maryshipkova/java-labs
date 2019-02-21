@@ -13,6 +13,7 @@ public class GenericItem {
         this.price = price;
         this.category = category;
     }
+
     public GenericItem(String name, float price, GenericItem analog) {
         this.ID = getId();
         this.name = name;
@@ -20,6 +21,7 @@ public class GenericItem {
         this.analog = analog;
         this.category = Category.GENERAL;
     }
+
     public GenericItem() {
         this.ID = getId();
         this.name = "default";
@@ -33,6 +35,15 @@ public class GenericItem {
 
     protected int getId() {
         return ++currentID;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof GenericItem) {
+            GenericItem obj1 = (GenericItem) obj;
+            return ID == obj1.ID && name == obj1.name && category == obj1.category;
+        }
+        return false;
     }
 
 }

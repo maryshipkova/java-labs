@@ -49,8 +49,13 @@ public class IniParser {
         return Integer.parseInt(getStringValue(section, param));
     }
 
-    public float getFloatValue(String section, String param) throws DataMissingException {
-        return Float.parseFloat(getStringValue(section, param));
+    public double getDoubleValue(String section, String param) throws DataMissingException {
+        return Double.parseDouble(getStringValue(section, param));
     }
+
+    public HashMap<String, HashMap<String, String>> getIniData(){
+        return _iniData;
+    }
+
 }
 
