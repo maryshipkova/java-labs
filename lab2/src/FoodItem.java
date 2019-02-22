@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class FoodItem extends GenericItem implements Cloneable{
+public class FoodItem extends GenericItem implements Cloneable {
     Date dateOfIncome; // дата производства
     short expires; // срок годности
 
@@ -39,6 +39,8 @@ public class FoodItem extends GenericItem implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+        FoodItem foodItem = new FoodItem(name, price, (FoodItem) analog, dateOfIncome, expires);
+        return foodItem;
+
     }
 }

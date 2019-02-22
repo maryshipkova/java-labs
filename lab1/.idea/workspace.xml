@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebe6c517-355a-43db-b6e4-a40e55a609e0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/FoodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/FoodItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/GenericItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/GenericItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/TechicalItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/TechicalItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/src/WorkArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/src/WorkArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/client/CatalogFileLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/client/CatalogFileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/client/CatalogLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/client/CatalogLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/client/CatalogStubLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/client/CatalogStubLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/exceptions/CatalogLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/exceptions/CatalogLoadException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/exceptions/ItemAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/exceptions/ItemAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/exceptions/NegativeQuantityException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/exceptions/NegativeQuantityException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/FoodItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/FoodItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/GenericItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/GenericItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/ItemCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/ItemCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/TechicalItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/billing/stocklist/TechicalItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/sync/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/sync/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/src/ru/sync/WorkThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/ru/sync/WorkThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop1/src/FractionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop1/src/FractionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop1/src/Polynom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop1/src/Polynom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop1/src/RationalFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop1/src/RationalFraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop1/src/RationalFractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop1/src/RationalFractions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop3/out/production/oop3/file.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../oop3/out/production/oop3/file.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop3/src/IniParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop3/src/IniParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop3/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop3/src/exceptions/BadFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop3/src/exceptions/BadFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop3/src/exceptions/DataMissingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../oop3/src/exceptions/DataMissingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../oop3/src/file.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../oop3/src/file.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,17 +12,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+            <state relative-caret-position="519">
+              <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -64,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/clas.java" />
       </list>
     </option>
   </component>
@@ -88,19 +69,39 @@
             <path>
               <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="java-labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550827002657" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -147,36 +148,37 @@
       <workItem from="1550043409100" duration="107000" />
       <workItem from="1550043678527" duration="45000" />
       <workItem from="1550738841576" duration="1538000" />
+      <workItem from="1550825300486" duration="1652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4249000" />
+    <option name="totallyTimeSpent" value="5901000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="798" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="798" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5071531" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50500715" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49583334" weight="0.32928178" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49499285" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50416666" side_tool="true" weight="0.32928178" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49284694" weight="0.3286119" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49213162" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -186,23 +188,69 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50500715" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49499285" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50416666" side_tool="true" weight="0.32928178" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49213162" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/out/production/java-labs/Main.class" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/lab1/Main.java" />
     <entry file="file://$PROJECT_DIR$/java-labs.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/java-labs/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+        <state relative-caret-position="519">
+          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
         </state>
       </provider>
     </entry>
