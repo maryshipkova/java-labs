@@ -62,24 +62,29 @@ public class ItemDAO
       Statement stmt = null;
       
       //-- build the SQL statement --//
-      
+      String sql = "SELECT * FROM GUEST.ITEM WHERE ITEM_ID="+id;
       
       try
       {
          //-- initialize the Statement object --//
-         
-         
+         stmt = m_conn.createStatement();
+
          //-- execute the SQL statement, get a ResultSet back --//
-         
+          ResultSet rs = stmt.executeQuery(sql);
          
          //-- if ID found, extract data from the ResultSet and initialize the ItemValue return value --//
          //-- if ID not found, the return value remains null --//
+          if(rs != null){
+              result = new MusicItem();
+              JDBCUtilities.printResultSet(rs);
+              System.out.println(rs.getLong("ITEM_ID"));
+          }
          
       }
       finally
       {
          //-- close the Statement - this closes its ResultSet --//
-         
+          stmt.close();
       }
       
       // return the value object
