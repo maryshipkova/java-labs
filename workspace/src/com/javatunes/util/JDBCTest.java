@@ -20,8 +20,12 @@ public class JDBCTest {
         ItemDAO itemDAO = new ItemDAO(conn);
         MusicItem musicItem1 =  itemDAO.searchById(1L);
         MusicItem musicItem2 =  itemDAO.searchById(100L);
-        System.out.println(musicItem1);
-        System.out.println(musicItem2);
+
+        System.out.println(itemDAO.searchByKeyword("of").size());
+        System.out.println(itemDAO.searchByKeyword("Gay").size());
+
+//        itemDAO.create(musicItem1);
+
         conn.close();
     }
 }
